@@ -1,0 +1,35 @@
+/* &display=swap */
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+
+/* Из Google Fonts */
+
+/* font-family: "Rubik", sans-serif; 400-500italic*/
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,500&display=swap");
+/* font-family: 'Roboto Serif', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,900;1,400&display=swap");
+
+/* С помощью F1 задан текст */
+
+
+
+@font-face {
+	font-family: "CircularStd-Book";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd-Medium";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd-Bold";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}

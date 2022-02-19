@@ -1,0 +1,312 @@
+@import "null.css";
+@import "fonts.css";
+/* -----------------------------------Произвольная домашка----------------------------------- */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.content-poligon {
+	color: #070c2c;
+	background-image: url("../img/page_t.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+	margin: 0 auto;
+}
+header {
+	margin-bottom: 20px;
+}
+.header-content {
+	background-image: url("../img/head-bg.jpeg");
+	max-width: 1275px;
+	margin: 0 auto;
+}
+h2 {
+	font-family: "Rubik", sans-serif;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+}
+h3 {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+	letter-spacing: 5px;
+	color: rgb(252, 228, 228);
+	text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5,
+		0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+}
+header img {
+	display: block;
+	max-height: 500px;
+	margin: 0 auto;
+	border-radius: 150px;
+}
+.main-content {
+	max-width: 1273px;
+	margin: 0 auto;
+	font-size: 20px;
+	font-family: "Rubik", sans-serif;
+}
+.naruto {
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 20px;
+	padding: 20px;
+	box-shadow: inset -1px 3px 8px 5px rgb(215, 160, 34), 2px 5px 16px 0px #0b325e, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.naruto-about {
+	background: url("../img/naruto2.png") 0 0/15% repeat-y, url("../img/naruto3.jpg") right/15% repeat-y,
+		rgba(251, 160, 34, 0.9);
+	margin-bottom: 20px;
+}
+.naruto-about p {
+	font-family: "Rubik", sans-serif;
+	line-height: 1.25;
+	max-width: 700px;
+	margin: 0 auto;
+	text-align: justify;
+}
+.naruto-bg {
+	min-height: 300px;
+	background-image: url("../img/Naruto-back1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-bottom: 20px;
+	border: 5px solid #000;
+	background-position: center;
+}
+.naruto-about img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 5px 50px;
+}
+.naruto-info {
+	background-image: url("../img/konoha.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: 2px solid green;
+	padding: 25px 0px;
+	text-align: center;
+}
+.naruto-info img {
+	border-radius: 10%;
+	margin-bottom: 20px;
+}
+.naruto-teachers {
+	margin-bottom: 30px;
+}
+.naruto-info span {
+	font-style: italic;
+	margin-right: 30px;
+	letter-spacing: 4px;
+}
+.naruto-teachers span {
+	background-color: rgba(19, 82, 26, 0.6);
+	color: #110c08;
+}
+.naruto-teachers .jiraya {
+	background-color: rgba(255, 255, 255, 0.6);
+	color: red;
+}
+.naruto-teachers .hatake {
+	color: #fff;
+}
+.naruto-friends {
+	margin-bottom: 30px;
+}
+.naruto-friends .naruto-name {
+	background-color: rgba(241, 127, 89, 0.6);
+	color: #dec955;
+}
+.naruto-friends span {
+	color: #f36541;
+	background-color: rgba(234, 183, 190, 0.8);
+}
+.naruto-friends .saske-name {
+	color: #000;
+	background-color: rgba(9, 62, 106, 0.8);
+}
+.family {
+	margin-bottom: 20px;
+	background-image: url("../img/naruto-family.jpg"),
+		radial-gradient(circle, rgba(254, 248, 190, 1) 28%, rgba(255, 255, 255, 1) 100%);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.family-bg {
+	background-image: url("../img/minato-kushina.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-bottom: 20px;
+	background-position: center;
+	min-height: 300px;
+	max-width: 1275px;
+	border: 5px solid #000;
+}
+.family > p {
+	margin: 0 auto;
+	max-width: 900px;
+	border: 1px solid #000;
+	margin-bottom: 20px;
+	padding: 50px;
+	text-align: justify;
+	box-shadow: 5px 5px 5px 0px #a19134, inset 4px 4px 15px 0px #807553, 5px 5px 15px 5px rgba(42, 219, 66, 0);
+}
+.minato {
+	max-width: 500px;
+	box-shadow: 5px 5px 5px 0px #a19134, inset 4px 4px 15px 0px #807553, 5px 5px 15px 5px rgba(42, 219, 66, 0);
+}
+.minato p {
+	text-align: justify;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.minato img {
+	display: block;
+	margin: 0 auto;
+}
+.kushina {
+	max-width: 500px;
+	margin: 0 0 0 auto;
+	box-shadow: 5px 5px 5px 0px #e26d83, inset 4px 4px 15px 0px #df5c74, 5px 5px 15px 5px rgba(42, 219, 66, 0);
+}
+.kushina p {
+	text-align: justify;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.kushina img {
+	display: block;
+	margin: 0 auto;
+}
+.sakura {
+	margin-bottom: 20px;
+	background: linear-gradient(180deg, rgba(143, 198, 165, 1) 0%, rgba(233, 187, 190, 1) 65%);
+	background: url("../img/sakura-naruto.jpg") left top/20% no-repeat,
+		url("../img/sakura-saske.jfif") top right/20% no-repeat, url("../img/sakura-gif.gif") right bottom / 20% no-repeat,
+		url("../img/komanda7-sakura.png") left bottom / 20% no-repeat,
+		linear-gradient(180deg, rgba(143, 198, 165, 1) 0%, rgba(233, 187, 190, 1) 65%);
+}
+.sakura img {
+	display: block;
+	margin: 0 auto 10px;
+	border-radius: 5px 50px;
+}
+.sakura p {
+	max-width: 700px;
+	padding: 10px 40px;
+	margin: 0 auto;
+	text-align: justify;
+	text-shadow: 2px 2px 0px #7a7a7a;
+	color: #ffffff;
+	/* background: #f7c1c1; */
+}
+.saske-bg {
+	background-image: url("../img/sharingan.jpg"),
+		linear-gradient(0deg, rgba(0, 0, 0, 0.7346288857339811) 0%, rgba(0, 0, 0, 1) 0%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-bottom: 20px;
+	background-position: center;
+	min-height: 1000px;
+	max-width: 1275px;
+	border: 5px solid #000;
+}
+.sasuke {
+	background: url("../img/itachi.png") -100px 20px / auto no-repeat,
+		url("../img/uchiha-logo-2.jpg") 0 0 / cover no-repeat;
+}
+.sasuke h3 {
+	text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4;
+}
+.sasuke p {
+	color: rgb(218, 209, 209);
+	text-align: justify;
+	text-shadow: 2px 2px 2px brown;
+	padding: 0 10px;
+}
+.sasuke-content {
+	max-width: 500px;
+	margin: 0 0 0 auto;
+}
+.sasuke img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border-radius: 10px 10px;
+}
+/* -----------------------------------Макет из Figma----------------------------------- */
+
+.content-figma {
+	max-width: 1025px;
+	margin: 0 auto;
+}
+.figma-head {
+	margin-bottom: 224px;
+}
+.figma-head h2 {
+	font-family: "CircularStd-Medium";
+	font-weight: 500;
+	font-size: 65px;
+	line-height: 82px;
+	text-align: center;
+	color: #313131;
+	margin-bottom: 20px;
+}
+.figma-head p {
+	font-family: "CircularStd-Book";
+	font-size: 20px;
+	line-height: 25px;
+	text-align: center;
+	color: #5f5f5f;
+}
+.figma-review {
+	margin-bottom: 125px;
+}
+.figma-review h3 {
+	font-family: "CircularStd-Bold";
+	font-weight: 700;
+	font-size: 34px;
+	text-align: left;
+	color: #313131;
+	opacity: 0.88;
+	line-height: 1.3;
+	margin-bottom: 20px;
+}
+.figma-review p {
+	font-family: "CircularStd-Book";
+	font-size: 18px;
+	line-height: 1.55;
+	color: #5f5f5f;
+}
+.figma-img-name {
+	font-family: "CircularStd-Bold";
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.3;
+	color: #313131;
+	opacity: 0.88;
+	margin-bottom: 5px;
+}
+.figma-img-position {
+	font-family: "CircularStd-Book";
+	font-size: 18px;
+	line-height: 1.3;
+	color: #b8b8b8;
+}
+.name-position-block {
+	margin-bottom: 20px;
+}
+.figma {
+	margin-bottom: 50px;
+}
+footer p {
+	font-size: 30px;
+	text-align: center;
+	font-family: "Redressed", cursive;
+}
